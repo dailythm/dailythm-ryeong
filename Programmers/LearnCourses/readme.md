@@ -26,10 +26,11 @@
 [4강]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/LearnCourses/57/4강.md
 [5강]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/LearnCourses/57/5강.md
 [6강]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/LearnCourses/57/6강.md
-
-<!-- [7강]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/LearnCourses/57/7강.md
+[7강]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/LearnCourses/57/7강.md
 [8강]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/LearnCourses/57/8강.md
 [9강]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/LearnCourses/57/9강.md
+
+<!--
 [10강]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/LearnCourses/57/10강.md
 [11강]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/LearnCourses/57/11강.md
 [12강]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/LearnCourses/57/12강.md
