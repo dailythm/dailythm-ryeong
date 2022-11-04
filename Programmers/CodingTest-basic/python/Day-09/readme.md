@@ -84,8 +84,7 @@ def solution(rsp):
 
 ```python
 def solution(balls, share):
-    answer, big, small = 1, 0, 0
-
+    answer = 1
     if share > balls - share:
         big, small = share, balls - share
     else: big, small = balls - share, share
