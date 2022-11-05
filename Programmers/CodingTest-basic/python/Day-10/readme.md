@@ -2,47 +2,73 @@
 
 ---
 
-## [037] 으아아아아아 [🔎][037]
+## [037] 점의 위치 구하기 [🔎][037]
 
->
+> 사분면은 한 평면을 x축과 y축을 기준으로 나눈 네 부분입니다.  
+> 사분면은 아래와 같이 1부터 4까지 번호를 매깁니다.
+
+- x 좌표와 y 좌표가 모두 양수이면 제1사분면에 속합니다.
+- x 좌표가 음수, y 좌표가 양수이면 제2사분면에 속합니다.
+- x 좌표와 y 좌표가 모두 음수이면 제3사분면에 속합니다.
+- x 좌표가 양수, y 좌표가 음수이면 제4사분면에 속합니다.
+
+> x 좌표 (x, y)를 차례대로 담은 정수 배열 dot이 매개변수로 주어집니다.  
+> 좌표 dot이 사분면 중 어디에 속하는지 1, 2, 3, 4 중 하나를 return 하도록 solution 함수를 완성해주세요
 
 ```python
-def solution(): return
+def solution(dot):
+    if dot[0] > 0 and dot[1] > 0 : return 1
+    elif dot[0] < 0 and dot[1] > 0 : return 2
+    elif dot[0] < 0 and dot[1] < 0 : return 3
+    else : return 4
 ```
 
 ---
 
-## [038] 으아아아아아 [🔎][038]
+## [038] 2차원으로 만들기 [🔎][038]
 
->
+> 정수 배열 num_list와 정수 n이 매개변수로 주어집니다.  
+> num_list의 원소들을 앞에서부터 n개씩 나눠 2차원 배열로 바꿔 return하도록 solution 함수를 완성해주세요.
 
 ```python
-def solution(): return
+def solution(num_list, n):
+    answer = []
+    for i in range(1, len(num_list), n):
+        answer.append(num_list[i -1: i + n -1])
+    return answer
 ```
 
 ---
 
-## [039] 으아아아아아 [🔎][039]
+## [039] 공 던지기 [🔎][039]
 
->
+> 머쓱이는 친구들과 동그랗게 서서 공 던지기 게임을 하고 있습니다.  
+> 공은 1번부터 던지며 오른쪽으로 한 명을 건너뛰고 그다음 사람에게만 던질 수 있습니다.  
+> 친구들의 번호가 들어있는 정수 배열 numbers와 정수 K가 주어질 때,
+> k번째로 공을 던지는 사람의 번호는 무엇인지 return 하도록 solution 함수를 완성해보세요.
 
 ```python
-def solution(): return
+def solution(numbers, k):
+    return (k * 2 - 1) % len(numbers)
 ```
 
 ---
 
-## [040] 으아아아아아 [🔎][040]
+## [040] 배열 회전시키기 [🔎][040]
 
->
+> 정수가 담긴 배열 numbers와 문자열 direction가 매개변수로 주어집니다.  
+> 배열 numbers의 원소를 direction방향으로 한 칸씩 회전시킨 배열을 return하도록 solution 함수를 완성해주세요.
 
 ```python
-def solution(): return
+def solution(numbers, direction):
+    if direction == 'right':
+        return [numbers[-1]] + numbers[0:-1]
+    else : return numbers[1:] + [numbers[0]]
 ```
 
 ---
 
-[037]: https://school.programmers.co.kr/learn/courses/30/lessons/120838
-[038]: https://school.programmers.co.kr/learn/courses/30/lessons/120839
-[039]: https://school.programmers.co.kr/learn/courses/30/lessons/120840
-[040]: https://school.programmers.co.kr/learn/courses/30/lessons/120841
+[037]: https://school.programmers.co.kr/learn/courses/30/lessons/120841
+[038]: https://school.programmers.co.kr/learn/courses/30/lessons/120842
+[039]: https://school.programmers.co.kr/learn/courses/30/lessons/120843
+[040]: https://school.programmers.co.kr/learn/courses/30/lessons/120844
