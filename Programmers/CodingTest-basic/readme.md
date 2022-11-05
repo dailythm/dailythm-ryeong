@@ -22,6 +22,7 @@
 | [Day8]  | [029] 배열 자르기        | [030] 외계행성의 나이     | [031] 진료순서 정하기   | [032] 순서쌍의 개수           |
 | [Day9]  | [033] 개미 군단          | [034] 모스부호(1)         | [035] 가위 바위 보      | [036] 구슬을 나누는 경우의 수 |
 | [Day10] | [037] 점의 위치 구하기   | [038] 2차원으로 만들기    | [039] 공 던지기         | [040] 배열 회전시키기         |
+| [Day11] | [041] 주사위의 개수      | [042] 합성수 찾기         | [043] 최댓값 만들기(1)  | [044] 팩토리얼                |
 
 [day1]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/CodingTest-basic/python/Day-01/readme.md
 [001]: https://school.programmers.co.kr/learn/courses/30/lessons/120802
@@ -73,6 +74,11 @@
 [038]: https://school.programmers.co.kr/learn/courses/30/lessons/120842
 [039]: https://school.programmers.co.kr/learn/courses/30/lessons/120843
 [040]: https://school.programmers.co.kr/learn/courses/30/lessons/120844
+[day11]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/CodingTest-basic/python/Day-11/readme.md
+[041]: https://school.programmers.co.kr/learn/courses/30/lessons/120845
+[042]: https://school.programmers.co.kr/learn/courses/30/lessons/120846
+[043]: https://school.programmers.co.kr/learn/courses/30/lessons/120847
+[044]: https://school.programmers.co.kr/learn/courses/30/lessons/120848
 
 </details>
 
