@@ -1,7 +1,7 @@
 # 🔥**Dailythm** \_ 매일 알고리즘
 
 > 시작일 : `2022-10-26`  
-> 작성자 : `용성령` soularofdawn [GitHub](https://github.com/soularofdawn "깃헙 바로가기")
+> 작성자 : `용성령` ryeong25 [GitHub](https://github.com/ryeong25 "깃헙 바로가기")
 
 ---
 
