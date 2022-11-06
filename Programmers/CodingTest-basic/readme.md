@@ -10,19 +10,21 @@
 > - 데이 정리 커밋 양식 (readme.md)  
 >   : git commit -m "pro_basic_py DD-done"
 
-|   Day   | Q1                       | Q2                        | Q3                      | Q4                            |
-| :-----: | :----------------------- | :------------------------ | :---------------------- | :---------------------------- |
-| [Day1]  | [001] 두 수의 합         | [002] 두 수의 차          | [003] 두 수의 곱        | [004] 몫 구하기               |
-| [Day2]  | [005] 두 수의 나눗셈     | [006] 숫자 비교하기       | [007] 분수의 덧셈       | [008] 배열 두배 만들기        |
-| [Day3]  | [009] 나머지 구하기      | [010] 중앙값 구하기       | [011] 최빈값 구하기     | [012] 짝수는 싫어요           |
-| [Day4]  | [013] 피자 나눠 먹기(1)  | [014] 피자 나눠 먹기(2)   | [015] 피자 나눠 먹기(3) | [016] 배열의 평균값           |
-| [Day5]  | [017] 옷가게 할인 받기   | [018] 아이스 아메리카노   | [019] 나이 출력         | [020] 배열 뒤집기             |
-| [Day6]  | [021] 문자열 뒤집기      | [022] 직각삼각형 출력하기 | [023] 짝수 홀수 개수    | [024] 문자 반복 출력하기      |
-| [Day7]  | [025] 특정 문자 제거하기 | [026] 각도기              | [027] 양꼬치            | [028] 짝수의 합               |
-| [Day8]  | [029] 배열 자르기        | [030] 외계행성의 나이     | [031] 진료순서 정하기   | [032] 순서쌍의 개수           |
-| [Day9]  | [033] 개미 군단          | [034] 모스부호(1)         | [035] 가위 바위 보      | [036] 구슬을 나누는 경우의 수 |
-| [Day10] | [037] 점의 위치 구하기   | [038] 2차원으로 만들기    | [039] 공 던지기         | [040] 배열 회전시키기         |
-| [Day11] | [041] 주사위의 개수      | [042] 합성수 찾기         | [043] 최댓값 만들기(1)  | [044] 팩토리얼                |
+|   Day   | Q1                       | Q2                        | Q3                         | Q4                            |
+| :-----: | :----------------------- | :------------------------ | :------------------------- | :---------------------------- |
+| [Day1]  | [001] 두 수의 합         | [002] 두 수의 차          | [003] 두 수의 곱           | [004] 몫 구하기               |
+| [Day2]  | [005] 두 수의 나눗셈     | [006] 숫자 비교하기       | [007] 분수의 덧셈          | [008] 배열 두배 만들기        |
+| [Day3]  | [009] 나머지 구하기      | [010] 중앙값 구하기       | [011] 최빈값 구하기        | [012] 짝수는 싫어요           |
+| [Day4]  | [013] 피자 나눠 먹기(1)  | [014] 피자 나눠 먹기(2)   | [015] 피자 나눠 먹기(3)    | [016] 배열의 평균값           |
+| [Day5]  | [017] 옷가게 할인 받기   | [018] 아이스 아메리카노   | [019] 나이 출력            | [020] 배열 뒤집기             |
+| [Day6]  | [021] 문자열 뒤집기      | [022] 직각삼각형 출력하기 | [023] 짝수 홀수 개수       | [024] 문자 반복 출력하기      |
+| [Day7]  | [025] 특정 문자 제거하기 | [026] 각도기              | [027] 양꼬치               | [028] 짝수의 합               |
+| [Day8]  | [029] 배열 자르기        | [030] 외계행성의 나이     | [031] 진료순서 정하기      | [032] 순서쌍의 개수           |
+| [Day9]  | [033] 개미 군단          | [034] 모스부호(1)         | [035] 가위 바위 보         | [036] 구슬을 나누는 경우의 수 |
+| [Day10] | [037] 점의 위치 구하기   | [038] 2차원으로 만들기    | [039] 공 던지기            | [040] 배열 회전시키기         |
+| [Day11] | [041] 주사위의 개수      | [042] 합성수 찾기         | [043] 최댓값 만들기(1)     | [044] 팩토리얼                |
+| [Day12] | [045] 모음 제거          | [046] 문자열 정렬하기(1)  | [047] 숨어있는 숫자의 덧셈 | [048] 소인수분해              |
+| [Day13] | [049] 컨트롤 제트        | [050] 배열 원소의 길이    | [051] 중복된 문자 제거     | [052] 삼각형의 완성조건       |
 
 [day1]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/CodingTest-basic/python/Day-01/readme.md
 [001]: https://school.programmers.co.kr/learn/courses/30/lessons/120802
@@ -79,6 +81,24 @@
 [042]: https://school.programmers.co.kr/learn/courses/30/lessons/120846
 [043]: https://school.programmers.co.kr/learn/courses/30/lessons/120847
 [044]: https://school.programmers.co.kr/learn/courses/30/lessons/120848
+[day12]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/CodingTest-basic/python/Day-12/readme.md
+[045]: https://school.programmers.co.kr/learn/courses/30/lessons/120849
+[046]: https://school.programmers.co.kr/learn/courses/30/lessons/120850
+[047]: https://school.programmers.co.kr/learn/courses/30/lessons/120851
+[048]: https://school.programmers.co.kr/learn/courses/30/lessons/120852
+[day13]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/CodingTest-basic/python/Day-13/readme.md
+[049]: https://school.programmers.co.kr/learn/courses/30/lessons/120853
+[050]: https://school.programmers.co.kr/learn/courses/30/lessons/120854
+[051]: https://school.programmers.co.kr/learn/courses/30/lessons/120888
+[052]: https://school.programmers.co.kr/learn/courses/30/lessons/120889
+
+<!--
+[day14]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/CodingTest-basic/python/Day-14/readme.md
+[day15]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/CodingTest-basic/python/Day-15/readme.md
+[day16]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/CodingTest-basic/python/Day-16/readme.md
+[day17]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/CodingTest-basic/python/Day-17/readme.md
+[day18]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/CodingTest-basic/python/Day-18/readme.md
+[day19]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/CodingTest-basic/python/Day-19/readme.md -->
 
 </details>
 
