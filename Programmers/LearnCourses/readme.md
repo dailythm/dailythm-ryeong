@@ -31,9 +31,9 @@
 [9강]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/LearnCourses/57/9강.md
 [10강]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/LearnCourses/57/10강.md
 [11강]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/LearnCourses/57/11강.md
+[12강]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/LearnCourses/57/12강.md
 
 <!--
-[12강]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/LearnCourses/57/12강.md
 [13강]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/LearnCourses/57/13강.md
 [14강]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/LearnCourses/57/14강.md
 [15강]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/LearnCourses/57/15강.md
