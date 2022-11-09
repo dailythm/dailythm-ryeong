@@ -2,47 +2,82 @@
 
 ---
 
-## [089] 으아아아아아 [🔎][089]
+## [089] 특이한 정렬 [🔎][089]
 
->
+> 정수 n을 기준으로 n과 가까운 수부터 정렬하려고 합니다.  
+> 이때 n으로부터의 거리가 같다면 더 큰 수를 앞에 오도록 배치합니다.  
+> 정수가 담긴 배열 numlist와 정수 n이 주어질 때
+> numlist의 원소를 n으로부터 가까운 순서대로 정렬한 배열을 return하도록 solution 함수를 완성해주세요.
 
 ```python
-def solution(): return
+def solution(numlist, n): return sorted(numlist, key= lambda x: (abs(x-n), -x))
 ```
 
 ---
 
-## [090] 으아아아아아 [🔎][090]
+## [090] 등수 매기기 [🔎][090]
 
->
+> 영어 점수와 수학 점수의 평균 점수를 기준으로 학생들의 등수를 매기려고 합니다.  
+> 영어 점수와 수학 점수를 담은 2차원 정수 배열 score가 주어질 때,
+> 영어 점수와 수학 점수의 평균을 기준으로 매긴 등수를 담은 배열을 return하도록 solution 함수를 완성해주세요.
 
 ```python
-def solution(): return
+def solution(score):
+    answer = []
+    for i in range(len(score)):
+        score[i] = (score[i][0] + score[i][1]) / 2
+    aver = sorted(score, reverse=True)
+    for i in score:
+        answer.append(aver.index(i) +1)
+    return answer
 ```
 
 ---
 
-## [091] 으아아아아아 [🔎][091]
+## [091] 옹알이(1) [🔎][091]
 
->
+> 머쓱이는 태어난 지 6개월 된 조카를 돌보고 있습니다.  
+> 조카는 아직 "aya", "ye", "woo", "ma" 네 가지 발음을 최대 한 번씩 사용해 조합한(이어 붙인) 발음밖에 하지 못합니다.  
+> 문자열 배열 babbling이 매개변수로 주어질 때,
+> 머쓱이의 조카가 발음할 수 있는 단어의 개수를 return하도록 solution 함수를 완성해주세요.
 
 ```python
-def solution(): return
+def solution(babbling):
+    answer = 0
+    known = ["aya", "ye", "woo", "ma"]
+
+    for i in babbling:
+        for k in known:
+            i = i.replace(k,'!')
+        if i.replace('!','') == '':
+            answer += 1
+    return answer
 ```
 
 ---
 
-## [092] 으아아아아아 [🔎][092]
+## [092] 로그인 성공? [🔎][092]
 
->
+> 머쓱이는 프로그래머스에 로그인하려고 합니다.
+> 머쓱이가 입력한 아이디와 패스워드가 담긴 배열 id_pw와 회원들의 정보가 담긴 2차원 배열 db가 주어질 때,
+> 다음과 같이 로그인 성공, 실패에 따른 메시지를 return하도록 solution 함수를 완성해주세요.
+
+- 아이디와 비밀번호가 모두 일치하는 회원정보가 있으면 "login"을 return합니다.
+- 로그인이 실패했을 때 아이디가 일치하는 회원이 없다면 “fail”를,  
+  아이디는 일치하지만 비밀번호가 일치하는 회원이 없다면 “wrong pw”를 return 합니다.
 
 ```python
-def solution(): return
+def solution(id_pw, db):
+    for i in db:
+        if id_pw[0] == i[0]:
+            if id_pw[1] == i[1]: return "login"
+            else : return "wrong pw"
+    return "fail"
 ```
 
 ---
 
-[089]: https://school.programmers.co.kr/learn/courses/30/lessons/120890
-[090]: https://school.programmers.co.kr/learn/courses/30/lessons/120891
-[091]: https://school.programmers.co.kr/learn/courses/30/lessons/120892
-[092]: https://school.programmers.co.kr/learn/courses/30/lessons/120893
+[089]: https://school.programmers.co.kr/learn/courses/30/lessons/120880
+[090]: https://school.programmers.co.kr/learn/courses/30/lessons/120882
+[091]: https://school.programmers.co.kr/learn/courses/30/lessons/120956
+[092]: https://school.programmers.co.kr/learn/courses/30/lessons/120883
