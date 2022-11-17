@@ -39,7 +39,7 @@
 [17강]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/LearnCourses/57/17강.md
 [18강]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/LearnCourses/57/18강.md
 [19강]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/LearnCourses/57/19강.md
-
+[20강]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/LearnCourses/57/20강.md
 
 <!--
 [20강]: https://github.com/dailythm/dailythm-ryeong/tree/main/Programmers/LearnCourses/57/20강.md
